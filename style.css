@@ -1,0 +1,56 @@
+h1 { color: rgb(250, 3, 168); } 
+   
+        .menu{
+              margin-right:50px;
+        }
+        .menu a {
+              margin-left: 20px;
+            }
+        
+     .item {
+           position: relative;
+
+     }
+     
+     .item p{
+           position: absolute;
+           top: 50%;
+           left:50%;
+           transform: translate(-50%,-50%);
+           opacity:0;
+     } 
+
+     .item:hover p {
+           opacity:1;
+     }
+
+     .item:hover img{
+           opacity:0.33;
+     }
+
+  .header{background-color: rgb(238, 233, 229);
+  font-style: italic;
+    
+ display:flex;
+ justify-content:space-between;
+
+}
+
+.grid{background-color: rgb(201, 179, 190);
+font-style: italic;
+
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.footer{background-color: rgb(4, 171, 248);
+display: flex;
+justify-content: left;
+flex-wrap: wrap;
+}
+body{
+      background-color: white;
+}
+
